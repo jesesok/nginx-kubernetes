@@ -9,6 +9,7 @@ std::vector<int> privet (){
 			break;
 		}
 		ish.push_back(value);
+		
 	}
 }
 
