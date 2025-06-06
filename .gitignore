@@ -35,6 +35,9 @@
 *.out
 *.app
 
+# Игнорировать все файлы без расширения
+
+
 ### VisualStudioCode ###
 .vscode/
 !.vscode/settings.json
@@ -55,3 +58,4 @@ calc
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,c++
+6
