@@ -24,6 +24,7 @@ std::vector<int> vectFill () {
 // 	return newVector;
 // }
 
+// ex 6.2
 std::vector<int> vectChanger(std::vector<int> incomeVector) {
 	std::vector<int> newVector;
 	int vectSize = incomeVector.size();
@@ -31,14 +32,14 @@ std::vector<int> vectChanger(std::vector<int> incomeVector) {
 		int a = (incomeVector[i] + incomeVector[vectSize - i - 1]);
 		newVector.push_back(a);
 	}
-	
+
 	return newVector;
 }
 
 int main() {
 	std::vector<int> a = vectFill();
 	std::vector<int> output = vectChanger(a);
-	for (int i = 0; i<output.size(); i++){
+	for (int i = 0; i<output.size(); i++) {
 		std::cout << output[i] << " ";
 	}
 		return 0;
